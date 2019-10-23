@@ -1,0 +1,45 @@
+/* Navbar */
+#navbar .logo {
+    float: none;
+text-align: center;
+}
+#navbar ul, #navbar ul li {
+    float: none;
+}
+#navbar ul li a {
+    border-bottom: 1px dotted #444;
+    padding: 5px;
+}
+
+/* Home Info */
+#home-info .info-img {
+    display: none;
+}
+#home-info .info-content {
+    width: 100%;
+    float: none;
+}
+
+/* Boxes */
+.box {
+    float: none;
+    width: 100%;
+}
+
+/* About */
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+.l-heading {
+    text-align: center;
+}
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+/* Contact */
+#contact-info .box {
+    border-bottom: #444 solid 1px;
+}

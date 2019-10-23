@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Welcome to the best hotel in Sarajevo">
+	<meta name="keywords" content="hotel, hotel Sarajevo, Bosnia hotel">
+	<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" media="screen and (max-width: 768px)" href="css/responsive.css">
+	<title>HHS | Kontakt</title>
+</head>
+<body>
+	<header>
+		<nav id="navbar">
+			<div class="container">
+				<h1 class="logo"><a href="index.html"></a>HHS</h1>
+				<ul>
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="O nama.html">O nama</a></li>
+					<li><a class="current" href="Kontakt.html">Kontakt</a></li>
+				</ul>
+			</div>
+		</nav>
+	
+		<section id="contact-form" class="py-3">
+			<div class="container">
+				<h1 class="l-heading"><span class="text-primary">Kontaktirajte</span> nas</h1>
+				<p>Popuniti formu ispod</p>
+			</div>
+			<form action="process.php">
+				<div class="form-group">
+					<label for="Ime">Ime</label>
+					<input type="text" name="name" id="name">
+				</div>
+				<div class="form-group">
+					<label for="Prezime">Prezime</label>
+					<input type="text" name="Prezime" id="Prezime">
+				</div>
+				<div class="form-group">
+					<label for="Poruka">Poruka</label>
+					<textarea name="Poruka" id="Poruka"></textarea>
+				</div>
+				<button class="btn">Potvrdi</button>
+			</form>
+		</section>
+
+		<section id="contact-info" class="bg-dark">
+			<div class="box">
+			<i class="fas fa-h-square fa-3x"></i>
+			<h3>Adresa</h3>
+			<p>ul. Stjepana Radica, 71000 Sarajevo</p>
+		</div>
+		<div class="box">
+			<i class="fas fa-envelope fa-3x"></i>
+			<h3>Email adress</h3>
+			<p>reception@hotel.com</p>
+		</div>
+		<div class="box">
+			<i class="fas fa-phone fa-3x"></i>
+			<h3>Phone</h3>
+			<p>+387 (33) 110 222</p>
+		</div>
+		</section>
+
+<footer id="main-footer">
+	<p>Hotel HHS &copy; 2019, All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
